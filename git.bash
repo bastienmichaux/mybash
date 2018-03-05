@@ -32,9 +32,9 @@ function pushNew { git push --set-upstream origin $1; }
 function pushNewFt { git push --set-upstream origin feature/$1; }
 function pushNewFx { git push --set-upstream origin bugfix/$1; }
 
-# add current changes to the latest commit
-# without modifying the commit message
-alias gcan='git commit --amend --no-edit';
+# add current changes to the latest commit, don't modify the commit message and force push
+alias gacan='git add . && git commit --amend --no-edit && git push -f';
+alias gcan='git commit --amend --no-edit && git push -f';
 
 alias gcM='git checkout master';
 alias gcD='git checkout develop';
