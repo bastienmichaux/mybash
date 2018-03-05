@@ -39,3 +39,6 @@ alias treeDirs='tree -a -d .';
 
 # mount external drives, etc (need configuration first)
 alias mountData='sudo mount /data';
+
+# calculatrice
+alias calc='gcalccmd';
