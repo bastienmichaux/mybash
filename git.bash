@@ -2,6 +2,8 @@
 
 alias gs='git status';
 
+alias gb='git branch';
+
 # better logs
 alias gl='git log --oneline --graph';
 alias gla='git log --abbrev-commit';

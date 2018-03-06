@@ -42,3 +42,6 @@ alias mountData='sudo mount /data';
 
 # calculatrice
 alias calc='gcalccmd';
+
+# todo list
+alias todo='subl ~/Desktop/todo.txt';
