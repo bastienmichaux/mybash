@@ -4,6 +4,9 @@ alias gs='git status';
 
 alias gb='git branch';
 
+# track origin branch
+function trackOrigin { git branch --set-upstream-to=origin/$1; }
+
 # better logs
 alias gl='git log --oneline --graph';
 alias gla='git log --abbrev-commit';

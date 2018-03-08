@@ -45,3 +45,8 @@ alias calc='gcalccmd';
 
 # todo list
 alias todo='subl ~/Desktop/todo.txt';
+
+# quick notes
+function memo { touch ~/Desktop/memos/$1 && subl ~/Desktop/memos/$1; }
+function ? { cat ~/Desktop/memos/$1; }
+alias memos='ls -lA ~/Desktop/memos';
